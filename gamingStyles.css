@@ -1,0 +1,34 @@
+#playstation, #nintendo {
+    border: 5px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;     
+    margin: 0 auto 10px auto;
+    visibility: hidden;
+    width: 50%;
+}
+
+#playstation img, #nintendo img {
+    border-bottom: 5px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 200px;  
+    width: 100%;
+}
+
+#playstation ul, #nintendo ul {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#playstation ul li, #nintendo ul li {
+    padding: 10px 0;
+    font-weight: bold;
+}

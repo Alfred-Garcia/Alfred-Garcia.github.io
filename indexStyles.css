@@ -1,0 +1,5 @@
+.mainContent iframe {
+    visibility: hidden;
+    border: 5px outset;
+    margin: 0 15px;
+}

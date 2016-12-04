@@ -1,0 +1,97 @@
+header {
+    background-color: #21C3FF;
+    border-left: 10px groove #C0C0C0;
+    border-right: 10px groove #C0C0C0;
+    border-top: 10px groove #C0C0C0;
+    border-bottom: 2px solid #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;   
+    margin: 0 auto;    
+    width: 100%;
+}
+
+#siteTitle {
+    font-size: 40px;
+    font-family: "luckiest guy", garamond, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+#title1 {
+    color: #000000;
+}
+
+#title2 {
+    color: #ffffff;
+}
+
+.sidebar {
+    background-color: #C1CDD1;
+    border-bottom: 10px groove #c0c0c0;
+    border-left: 10px groove #C0C0C0;
+    border-right: 1px solid #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    min-height: 600px;
+    width: 25%;
+}
+
+.mainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 3px 10px 0;
+    text-align: right;
+}
+
+.mainNavItem {
+    color: #000000;
+    display: block; 
+    font-family: "luckiest guy", garamond, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: background-color .5s;
+}
+
+.mainNavItem:hover {
+    background-color: #ffffff;
+    border-right: 5px solid #000000;
+    padding: 10px 2px 10px 0;
+}
+
+.active {
+    color: #cc0000;
+}
+
+.mainContent {
+    background-color: #e1eff4;
+    border-bottom: 10px groove #c0c0c0;
+    border-left: 1px solid #000000;
+    border-right: 10px groove #C0C0C0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+    float: right;
+    height: 600px;    
+    overflow: scroll;
+    width: 75%;
+}
+
+.mainContent h1 {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-family: "luckiest guy", garamond, sans-serif;
+}
+
+.mainContent p {
+    margin: 0 15px;
+    text-indent: 2em;
+}
+
+.mainContent button {
+    margin: 0 15px;
+}

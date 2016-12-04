@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="mainStyles.css">
+        <link rel="stylesheet" type="text/css" href="gamingStyles.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Characters|Luckiest+Guy">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="newJavaScript.js"></script>
+        <meta name="author" content="Alfred Garcia, Fall 2016">
+        <meta name="description" content="These pages contain my final website for the CSE 322 Course.">
+        <title title="CSE 322 Assignment: Final Website">CSE 322 Assignment: Final Website</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="siteTitle"><span id="title1">Welcome To: </span><span id="title2">MyLife</span></h1>
+        </header>            
+        <div class="sidebar">
+            <nav>
+                <ul class="mainNav">
+                    <li><a href="index.html" class="mainNavItem">Home</a></li>
+                    <li><a href="gaming.html" class="mainNavItem active">Gaming</a></li>
+                    <li><a href="family.html" class="mainNavItem">Family</a></li>
+                    <li><a href="social.html" class="mainNavItem">Social Media</a></li>
+                </ul>                    
+            </nav>
+        </div>
+        <section class="mainContent">
+            <h1>Video Game Central</h1>
+            <p>I have been an avid collector of vidoegames since about the the time I was 5 years old. During that time, my
+            parents had purchased a "regular" Nintendo and my very first game, Super Mario Bros. I recall playing that game
+            for hours. I have since gone on to collect several other games, some of which I reveal here.</p>
+            <br>
+            <button type="button" onclick="revealPlaystation()">Click to view Playstation Games</button>
+            <br><br>
+            <button type="button" onclick="revealNintendo()">Click to view Nintendo Games</button>
+            <br><br>
+            <section id="playstation">
+                <img src="Images/PS4.png" alt="playstation image">
+                <ul>
+                    <li>Battlefield One</li>
+                    <li>Final Fantasy XV</li>
+                    <li>Street Fighter V</li>
+                    <li>Mortal Combat X</li>
+                    <li>Fallout 4</li>
+                </ul>
+            </section>
+            <section id="nintendo">
+                <img src="Images/3DS.png" alt="nintendo 3DS image">
+                <ul>
+                    <li>Pokemon Sun</li>
+                    <li>MarioKart 7</li>
+                    <li>Pokemon Mystery Dungeon</li>
+                    <li>The Legend of Zelda</li>
+                    <li>Dragon Quest</li>
+                </ul>
+            </section>
+        </section>
+    </body>
+</html>

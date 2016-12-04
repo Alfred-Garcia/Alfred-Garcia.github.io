@@ -1,0 +1,15 @@
+.mainContent a  {
+    font-size: 100px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.mainContent a .fa-facebook {
+    color: #3B5988;
+}
+
+.mainContent a .fa-twitter {
+    color: #4099FF;
+}
